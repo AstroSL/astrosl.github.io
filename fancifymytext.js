@@ -3,35 +3,32 @@ function bigger() {
     alert("Hello, world!");
   }
   
-function fancy() {  
-    let textField = document.getElementById("text");
-    if(document.getElementById("fancy").checked) {
-        // textField.style.fontSize = "12pt";
-        textField.style.fontWeight = "bold";
-        textField.style.color = "#0000ff";
-        textField.style.textDecoration = "underline";
-        textField.style.fontFamily = "Garamond";
-        document.getElementById("boring").checked = false;
-    }
-  }
-  
-  
-function boring() {  
-    let textField = document.getElementById("text");
-    if(document.getElementById("boring").checked) {
-        textField.style.fontSize = "12pt";
-        textField.style.fontWeight = "normal";
-        textField.style.color = "#000000";
-        textField.style.textDecoration = "none";
-        textField.style.fontStyle = "Arial";
-        document.getElementById("fancy").checked = false;
-    }
+//bigger
+function big() {
+   var text = document.getElementById("text");
+   text.style.fontSize = "24pt";
 }
-  
-function moo() {  
-    let textField = document.getElementById("text");
-    textField.style.textTransform = "uppercase";
-//     textField.style.textTransform = "capitalize";
-    let parts = textField.value.split(".");
-    textField.value = parts.join("-Moo.");
+//bold
+function bold() {
+   var text = document.getElementById("text");
+   text.style.fontWeight = "bold";
+   text.style.color= "blue";
+   text.style.textDecoration= "underline";
+}
+
+//unbold
+function bbetty() {
+   var text = document.getElementById("text");
+   text.style.fontSize = "initial";
+   text.style.fontWeight = "normal";
+   text.style.color = "black";
+   text.style.textDecoration= "none";
+}
+
+//uppercase+ -Moo suffix
+function moo() {
+   var suffix = '-Moo',
+   txt = document.getElementById('text');
+   txt.style.textTransform="uppercase";
+   txt.value = txt.value.split('.').join('') + suffix;
 }
