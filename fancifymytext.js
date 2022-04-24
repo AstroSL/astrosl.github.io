@@ -1,6 +1,7 @@
-function hello() {
-   hello("Hello, world!"); 
-}
+function bigger() {  
+    document.getElementById("text").style.fontSize = "24pt";
+    alert("Hello, world!");
+  }
 
 //bigger
 function big() {
