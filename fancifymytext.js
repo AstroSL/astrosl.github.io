@@ -3,11 +3,6 @@ function bigger() {
     alert("Hello, world!");
   }
 
-//bigger
-function big() {
-   var text = document.getElementById("text");
-   text.style.fontSize = "24pt";
-}
 
 //bold
 function bold() {
