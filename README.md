@@ -2,6 +2,5 @@
 Hello 196w
 <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" />
 
-<img src="https://i.imgur.com/mpdO0eb.png"  width="250" />
 
 https://i.imgur.com/mpdO0eb.png
